@@ -1,0 +1,473 @@
+
+
+Theme Name:Info Escola
+Author: Ivan Bezerra
+
+Colors:
+Body 		  : #868F9B
+Headers 	: #10161A
+Primary 	: #6195FF
+Dark      : #FCFCFF
+Grey 		  : #F4F4F4 #FAFAFA #EEE
+
+Fonts: Montserrat Varela Round
+
+Table OF Contents
+------------------------------------
+1 > Inicial
+2 > Logo
+3 > Navigation
+4 > Login
+5 > Cadastrar
+6 > Enviar Notificação
+7 > Contato
+------------------------------------
+
+------------------------------------
+Inicial
+------------------------------------
+
+
+
+.containe{
+
+}
+
+
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-x: hidden;
+
+}
+
+
+
+h1 {
+    font-size: 54px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+.white-text {
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+      Inicio  Navegação
+\*------------------------------------*/
+
+#nav {
+    padding: 10px 0px;
+
+
+}
+
+#nav.navbar {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .main-nav li {
+        padding: 0px 15px;
+    }
+    .main-nav li a {
+        font-size: 14px;
+        -webkit-transition: 0.2s color;
+        transition: 0.2s color;
+    }
+    .main-nav>li>a {
+
+        padding: 15px 0px;
+    }
+    #nav.nav-transparent:not(.fixed-nav) .main-nav>li>a {
+        color: #fff;
+    }
+    .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
+        background: transparent;
+        color: #6195FF;
+    }
+    .main-nav>li>a:after {
+        content: "";
+        display: block;
+        background-color: #6195FF;
+        height: 2px;
+        width: 0%;
+        -webkit-transition: 0.2s width;
+        transition: 0.2s width;
+    }
+    .main-nav>li>a:hover:after, .main-nav>li.active>a:after {
+        width: 100%;
+    }
+
+
+
+
+
+
+    header {
+        position: relative;
+
+
+
+    }
+
+    #inicial {
+        height: 100vh;
+    }
+
+    #inicial.inicial-wrapper {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        text-align: center;
+    }
+    /*------------------------------------*\
+           Fim Navegação
+    \*------------------------------------*/
+
+    /*------------------------------------*\
+          Inicio  Login
+    \*------------------------------------*/
+
+    .login{
+
+        position: relative;
+        text-align: center;
+        font-size: 25px;
+        color: #FFFFFF;
+        border: 3px solid #EEE;
+
+
+
+    }
+    .log{
+        background-color: white;
+    }
+
+    .login-user{
+
+        color: #FFFFFF;
+        font-size: 15px;
+        margin-left: 200px;
+        margin-top: 120px;
+        width: 400px;
+
+
+    }
+
+    .cadastro{
+        position: relative;
+        text-align: center;
+        font-size: 25px;
+        color: #FFFFFF;
+        border: 3px solid #EEE;
+
+    }
+    .login-senha{
+        font-size: 15px;
+        color: #FFFFFF;
+        margin-left: 200px;
+        width: 400px;
+    }
+    .ls-login-forgot{
+        font-size: 15px;
+        color: #FFFFFF;
+
+    }
+    /*-----------------------------------*\
+    Fim Login
+    \*-----------------------------------*/
+
+    /*------------------------------------*\
+         Inicio  Notificação
+  \*------------------------------------*/
+    .enviar{
+        position: relative;
+        text-align: center;
+        font-size: 25px;
+        color: #FFFFFF;
+        border: 3px solid #EEE;
+    }
+    .groupdesti{
+        height: 30px;
+    }
+    .noti{
+        font-size: 15px;
+        color: #FFFFFF;
+        margin-left: 90px;
+        margin-top: 40px;
+    }
+    .box-actions2{
+        margin-left: 90px;
+    }
+
+    /*---------------------------------*\
+    Fim Login
+    \*---------------------------------*/
+
+
+
+
+    /*------------------------------------*\
+               Cadastro
+       \*------------------------------------*/
+
+    .nome1{
+        font-size: 15px;
+        color: #FFFFFF;
+        width: 800px;
+        margin-left: 250px;
+    }
+    .user{
+        font-size: 15px;
+        color: #FFFFFF;
+        width: 380px;
+        margin-left: 250px;
+    }
+    .senha1{
+        font-size: 15px;
+        color: #FFFFFF;
+        margin-top: -72px;
+        margin-left: 670px;
+        width: 380px;
+    }
+
+    .cpf{
+        font-size: 15px;
+        color: #FFFFFF;
+        width: 380px;
+        margin-left: 250px;
+    }
+    .tel{
+        font-size: 15px;
+        color: #FFFFFF;
+        width: 195px;
+        margin-top: -72px;
+        margin-left: 850px;
+    }
+    .nomeres1{
+        font-size: 15px;
+        color: #FFFFFF;
+        width: 500px;
+        margin-top: 20px;
+        margin-left: 250px;
+    }
+    .nomeres2{
+        font-size: 15px;
+        color: #FFFFFF;
+        width: 500px;
+        margin-top: 20px;
+        margin-left: 250px;
+    }
+    .inicial {
+    }
+
+
+    .tel1{
+        font-size: 15px;
+        color: #FFFFFF;
+        width: 195px;
+        margin-top: -75px;
+        margin-left: 860px;
+    }
+    .tel2{
+        font-size: 15px;
+        color: #FFFFFF;
+        width: 195px;
+        margin-top: -75px;
+        margin-left: 860px;
+    }
+    .form-group1{
+        width: 170px;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 250px;
+    }
+    .form-group2{
+        width: 170px;
+        font-size:15px;
+        margin-left: 5px;
+    }
+    .form-group3{
+        width: 170px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .box-actions{
+        margin-top: 30px;
+        margin-left: 300px;
+
+    }
+
+    .form-group4{
+        width: 170px;
+        font-size: 15px;
+        margin-left: 5px  
+    }
+    .form-group5{
+        width: 90px;
+        font-size: 15px;
+        margin-left: 1px;
+
+    } 
+    /*------------------------------------*\
+               Contato
+       \*------------------------------------*/
+
+
+
+}
+
+
+
+.contato{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    color: #FFFFFF;
+    border: 3px solid #EEE;
+}
+
+
+
+.logo-alt{
+    width: 120px;
+    height: 65px;
+    margin-left: 65px;
+    margin-top: -20px;
+
+}
+
+.buscar{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    color: #FFFFFF;
+    border: 3px solid #EEE;
+
+}
+.alterar{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    color: #FFFFFF;
+    border: 3px solid #EEE;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box-parent-enviar {
+
+}
+
+.box-login {
+
+}
+
+.fa-phone {
+
+}
+
+.fa-envelope {
+
+}
+
+.bg-white {
+
+}
+
+.inicial-content {
+
+}
